@@ -1,0 +1,50 @@
+.app-container {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      .input-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+        align-items: flex-end;
+      }
+      .button {
+        background-color:aquamarine;
+        margin-left: 5px;
+        border-radius: 7px;
+      }
+      .input {
+        border-radius: 7px;
+        flex-grow: 1;
+        max-width: 500px;
+      }
+      .chat-container {
+        display: flex;
+        flex-direction: column;
+        
+        flex-grow: 1;
+        max-width: 600px;
+        overflow: scroll;
+        scrollbar-width: none;
+      }
+      .chat-user {
+        display: flex;
+        justify-content: end;
+        align-items: start
+      }
+      .chat-robot {
+        display: flex;  
+      }
+      .teks {
+        margin-right: 10px;
+        margin-left: 10px;
+        background-color: grey;
+        border-radius: 7px;
+        font-size: 14px;
+        padding: 2px 5px;
+      }
